@@ -108,7 +108,7 @@ header{
 .home{
     width: 100%;
     min-height: 100vh;
-    background: url(img/bg.png);
+    background-color: var(--main-color);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
@@ -131,8 +131,8 @@ header{
 .btn{
     padding: 10px 40px;
     border-radius: 0.3rem;
-    background: var(--main-color);
-    color: var(--bg-color);
+    background: var(--bg-color);
+    color: var(--main-color);
     font-weight: 500;
 }
 .btn:hover{
